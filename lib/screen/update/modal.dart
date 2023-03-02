@@ -1,5 +1,6 @@
-class Model{
-  String ? name,id,std;
+class student_model
+{
+  String? Name,Std,Id;
 
-  Model({this.name, this.id, this.std});
+  student_model({this.Name, this.Std, this.Id});
 }

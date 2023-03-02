@@ -1,13 +1,13 @@
-
 import 'package:flutter/material.dart';
 
 
+import 'modal.dart';
 
 class studentdata_provider extends ChangeNotifier
 {
-  List<model> storeStudentData = [];
+  List<student_model> storeStudentData = [];
 
-  void add(model s1)
+  void add(student_model s1)
   {
     storeStudentData.add(s1);
     notifyListeners();
